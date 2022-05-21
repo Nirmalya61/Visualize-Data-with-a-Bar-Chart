@@ -7,7 +7,7 @@ d3.json('https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/mas
     //Variables
     const height = 400,
           width = 700,
-          margin = {top: 20, left: 50, bottom: 30, right: 20},
+          margin = {top: 10, left: 50, bottom: 30, right: 190},
           innerHeight = height - margin.top - margin.bottom,
           innerWidth = width - margin.left - margin.right,
           barWidth = innerWidth/dataset.length;
